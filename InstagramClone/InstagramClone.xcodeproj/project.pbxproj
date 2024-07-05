@@ -10,9 +10,14 @@
 		A40A916B2C380502006D3F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A916A2C380502006D3F6A /* AppDelegate.swift */; };
 		A40A916D2C380502006D3F6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A916C2C380502006D3F6A /* SceneDelegate.swift */; };
 		A40A916F2C380502006D3F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A916E2C380502006D3F6A /* ViewController.swift */; };
-		A40A91742C380504006D3F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A91732C380504006D3F6A /* Assets.xcassets */; };
 		A40A91772C380504006D3F6A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A40A91762C380504006D3F6A /* Base */; };
 		A40A91852C380D12006D3F6A /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A91842C380D12006D3F6A /* MainTabController.swift */; };
+		A40A91872C3819D0006D3F6A /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A91862C3819D0006D3F6A /* FeedController.swift */; };
+		A40A91892C3819F9006D3F6A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A91882C3819F9006D3F6A /* SearchController.swift */; };
+		A40A918B2C381A1C006D3F6A /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918A2C381A1C006D3F6A /* ImageSelectorController.swift */; };
+		A40A918D2C381A35006D3F6A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918C2C381A35006D3F6A /* NotificationController.swift */; };
+		A40A918F2C381A60006D3F6A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918E2C381A60006D3F6A /* ProfileController.swift */; };
+		A475919E2C388938004A128A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A475919D2C388938004A128A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,15 @@
 		A40A916A2C380502006D3F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A40A916C2C380502006D3F6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A40A916E2C380502006D3F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A40A91732C380504006D3F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40A91762C380504006D3F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40A91782C380504006D3F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40A91842C380D12006D3F6A /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		A40A91862C3819D0006D3F6A /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		A40A91882C3819F9006D3F6A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		A40A918A2C381A1C006D3F6A /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		A40A918C2C381A35006D3F6A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A40A918E2C381A60006D3F6A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		A475919D2C388938004A128A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,7 @@
 				A40A916A2C380502006D3F6A /* AppDelegate.swift */,
 				A40A916C2C380502006D3F6A /* SceneDelegate.swift */,
 				A40A916E2C380502006D3F6A /* ViewController.swift */,
-				A40A91732C380504006D3F6A /* Assets.xcassets */,
+				A475919D2C388938004A128A /* Assets.xcassets */,
 				A40A91752C380504006D3F6A /* LaunchScreen.storyboard */,
 				A40A91782C380504006D3F6A /* Info.plist */,
 			);
@@ -90,6 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				A40A91842C380D12006D3F6A /* MainTabController.swift */,
+				A40A91862C3819D0006D3F6A /* FeedController.swift */,
+				A40A91882C3819F9006D3F6A /* SearchController.swift */,
+				A40A918A2C381A1C006D3F6A /* ImageSelectorController.swift */,
+				A40A918C2C381A35006D3F6A /* NotificationController.swift */,
+				A40A918E2C381A60006D3F6A /* ProfileController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,7 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40A91742C380504006D3F6A /* Assets.xcassets in Resources */,
+				A475919E2C388938004A128A /* Assets.xcassets in Resources */,
 				A40A91772C380504006D3F6A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40A916F2C380502006D3F6A /* ViewController.swift in Sources */,
+				A40A918B2C381A1C006D3F6A /* ImageSelectorController.swift in Sources */,
+				A40A918D2C381A35006D3F6A /* NotificationController.swift in Sources */,
+				A40A91892C3819F9006D3F6A /* SearchController.swift in Sources */,
 				A40A916B2C380502006D3F6A /* AppDelegate.swift in Sources */,
+				A40A918F2C381A60006D3F6A /* ProfileController.swift in Sources */,
+				A40A91872C3819D0006D3F6A /* FeedController.swift in Sources */,
 				A40A91852C380D12006D3F6A /* MainTabController.swift in Sources */,
 				A40A916D2C380502006D3F6A /* SceneDelegate.swift in Sources */,
 			);
@@ -336,8 +356,8 @@
 				INFOPLIST_FILE = InstagramClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,8 +387,8 @@
 				INFOPLIST_FILE = InstagramClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
