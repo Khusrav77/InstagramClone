@@ -17,6 +17,8 @@
 		A40A918B2C381A1C006D3F6A /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918A2C381A1C006D3F6A /* ImageSelectorController.swift */; };
 		A40A918D2C381A35006D3F6A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918C2C381A35006D3F6A /* NotificationController.swift */; };
 		A40A918F2C381A60006D3F6A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A918E2C381A60006D3F6A /* ProfileController.swift */; };
+		A464502C2C39D70300092226 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464502B2C39D70300092226 /* LoginController.swift */; };
+		A464502E2C39D72800092226 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464502D2C39D72800092226 /* RegistrationController.swift */; };
 		A47E39602C39628200E07727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E395F2C39628200E07727 /* Assets.xcassets */; };
 		A47E39622C39650900E07727 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E39612C39650900E07727 /* FeedCell.swift */; };
 		A47E39642C39674E00E07727 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E39632C39674E00E07727 /* Extensions.swift */; };
@@ -35,6 +37,8 @@
 		A40A918A2C381A1C006D3F6A /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		A40A918C2C381A35006D3F6A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		A40A918E2C381A60006D3F6A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		A464502B2C39D70300092226 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A464502D2C39D72800092226 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		A47E395F2C39628200E07727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47E39612C39650900E07727 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A47E39632C39674E00E07727 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		A40A91802C3806B1006D3F6A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A464502A2C39D6AC00092226 /* Authentication */,
 				A40A91842C380D12006D3F6A /* MainTabController.swift */,
 				A40A91862C3819D0006D3F6A /* FeedController.swift */,
 				A40A91882C3819F9006D3F6A /* SearchController.swift */,
@@ -134,6 +139,15 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A464502A2C39D6AC00092226 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A464502B2C39D70300092226 /* LoginController.swift */,
+				A464502D2C39D72800092226 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40A916F2C380502006D3F6A /* ViewController.swift in Sources */,
+				A464502C2C39D70300092226 /* LoginController.swift in Sources */,
 				A47E39622C39650900E07727 /* FeedCell.swift in Sources */,
 				A40A918B2C381A1C006D3F6A /* ImageSelectorController.swift in Sources */,
 				A40A918D2C381A35006D3F6A /* NotificationController.swift in Sources */,
@@ -217,6 +232,7 @@
 				A40A91852C380D12006D3F6A /* MainTabController.swift in Sources */,
 				A47E39642C39674E00E07727 /* Extensions.swift in Sources */,
 				A40A916D2C380502006D3F6A /* SceneDelegate.swift in Sources */,
+				A464502E2C39D72800092226 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
