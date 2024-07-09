@@ -10,6 +10,7 @@ import UIKit
 class RegistrationController: UIViewController {
     
     // MARK: - PROPERTIES
+    private var viewModel = RegistrationViewModel()
     
     private let plusPhotoButton: UIButton = {
         let button = UIButton(type: .system)
@@ -59,6 +60,20 @@ class RegistrationController: UIViewController {
     @objc func handleShowLogin() {
         navigationController?.popViewController(animated: true)
     }
+    
+    @objc func texDidChange(sender: UITextField) {
+        if sender == emailTextField {
+            viewModel.email = sender.text
+        } else if sender == passwordTextField{
+            viewModel.password = sender.text
+        } else if sender == fullNameTextField {
+            viewModel.fullName = sender.text
+        } else {
+            viewModel.userName = sender.text
+        }
+        
+        updateForm()
+    }
         
         
     // MARK: - LIFECYCLE
@@ -66,6 +81,7 @@ class RegistrationController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+        configureNotificationObservers()
        
     }
     
@@ -91,4 +107,23 @@ class RegistrationController: UIViewController {
         alreadyHaveAccountButton.centerX(inView: view)
         alreadyHaveAccountButton.anchor(bottom: view.safeAreaLayoutGuide.bottomAnchor)
     }
+    
+    func configureNotificationObservers() {
+        emailTextField.addTarget(self, action: #selector(texDidChange), for: .editingChanged)
+        passwordTextField.addTarget(self, action: #selector(texDidChange), for: .editingChanged)
+        fullNameTextField.addTarget(self, action: #selector(texDidChange), for: .editingChanged)
+        userNameTextField.addTarget(self, action: #selector(texDidChange), for: .editingChanged)
+    }
+}
+
+// MARK: - FormViewModel
+
+extension RegistrationController: FormViewModel {
+    func updateForm() {
+        signUpButton.backgroundColor = viewModel.buttonBackgroundColor
+        signUpButton.setTitleColor(viewModel.buttonTitleColor, for: .normal)
+        signUpButton.isEnabled = viewModel.formIsValid
+    }
+    
+    
 }
